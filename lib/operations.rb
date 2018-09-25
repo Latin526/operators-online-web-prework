@@ -1,6 +1,3 @@
-describe "Operations" do
-  let(:file_contents) { File.read(File.join(File.dirname(__FILE__), '..', 'lib/operations.rb')) }
-
   describe "#unsafe?" do
     it 'returns true if speed is greater than 60' do
       answer = unsafe?(79)
